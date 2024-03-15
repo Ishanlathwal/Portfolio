@@ -1,0 +1,40 @@
+/* eslint-disable react-refresh/only-export-components */
+import { motion } from "framer-motion";
+
+import { styles } from "../styles";
+import { services } from "../constants";
+import { fadeIn, textVariant } from "../utils/motion";
+import { ServiceCard } from "./Cards/ServiceCard";
+import SectionWrapper from "../hoc/SectionWrapper";
+
+const About = () => {
+  return (
+    <>
+      <motion.div variants={textVariant()}>
+        <p className={styles.sectionSubText}>Introduction</p>
+        <h2 className={styles.sectionHeadText}>Overview.</h2>
+      </motion.div>
+
+      <motion.p
+        variants={fadeIn("right", "spring", 0.75, 2.5)}
+        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
+        I&apos;m a skilled software developer with{" "}
+        <span className="text-[#fffc57] " style={{ fontWeight: 900 }}>
+          1 plus
+        </span>{" "}
+        year of experience in MERN Stack. I&apos;m a quick learner and
+        collaborate closely with clients to create efficient, scalable, and
+        user-friendly solutions that solve real-world problems. Let&apos;s work
+        together to bring your ideas to life!
+      </motion.p>
+
+      <div className="mt-20 flex flex-wrap gap-8">
+        {services.map((service, index) => (
+          <ServiceCard key={service.title} index={index} {...service} />
+        ))}
+      </div>
+    </>
+  );
+};
+
+export default SectionWrapper(About, "about");
