@@ -5,12 +5,6 @@ import SectionWrapper from "../hoc/SectionWrapper";
 import { CertificatesCard } from "./Cards/CertificatesCard";
 import { certificates } from "../constants";
 
-// import { styles } from "../styles";
-// import { SectionWrapper } from "../hoc";
-// import { textVariant } from "../utils/motion";
-// import { testimonials } from "../constants";
-// import { CertificatesCard } from "./Cards/CertificatesCard";
-
 const Certificates = () => {
   return (
     <div className={`mt-12 bg-black-100 rounded-[20px]`}>
