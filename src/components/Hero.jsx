@@ -22,7 +22,8 @@ const Hero = () => {
             web applications
           </p>
           <p className={`${styles.heroSubText} text-[#915EFF]`}>
-            (Rotate The DESKTOP)
+            (You can Rotate The <br />
+            DESKTOP)
           </p>
         </div>
       </div>

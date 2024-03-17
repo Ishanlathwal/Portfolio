@@ -19,9 +19,12 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 
-import meta from "./projects/meta.png";
 import shopify from "./projects/shopify.png";
-import tesla from "./projects/tesla.png";
+import ticTacToe from "./projects/tic-tac-toe.png";
+import worldwise from "./projects/worldwise.png";
+import imdb from "./projects/imdb.png";
+import travel from "./projects/travel.png";
+import calculator from "./projects/calculator.png";
 
 export {
   logo,
@@ -43,7 +46,10 @@ export {
   redux,
   tailwind,
   typescript,
-  meta,
   shopify,
-  tesla,
+  ticTacToe,
+  worldwise,
+  imdb,
+  travel,
+  calculator,
 };

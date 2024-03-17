@@ -14,9 +14,12 @@ import {
   mongodb,
   git,
   angular,
-  meta,
-  tesla,
   shopify,
+  ticTacToe,
+  worldwise,
+  imdb,
+  travel,
+  calculator,
 } from "../assets";
 
 export const navLinks = [
@@ -114,28 +117,55 @@ const personalProjects = [
     icon: shopify,
     iconBackgroundColor: "#383E56",
     liveLink: "https://mern-ecommerce-uku0.onrender.com/",
-    github: "https://github.com/Ishanlathwal/E-Commerce",
+    github: "https://github.com/Ishanlathwal/MERN-Ecommerce",
   },
   {
-    title: "React Native Developer",
-    icon: tesla,
+    title: "Movie List",
+    icon: imdb,
     iconBackgroundColor: "#E6DEDD",
+    liveLink: "https://ishan-imdb-movielist.netlify.app/",
+    github: "https://github.com/Ishanlathwal/Imdb-Movie-List",
   },
   {
-    title: "Web Developer",
-    icon: shopify,
+    title: "World Wise",
+    icon: worldwise,
     iconBackgroundColor: "#383E56",
+    liveLink: "https://world-wise-joft.onrender.com/",
+    github: "https://github.com/Ishanlathwal/World-Wise",
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Tic-Tac-Toe",
+    icon: ticTacToe,
     iconBackgroundColor: "#E6DEDD",
+    liveLink: "https://ishan-tiktactoe.netlify.app/",
+    github: "https://github.com/Ishanlathwal/Tic-tac-toe",
+  },
+  {
+    title: "Travel Luggage",
+    icon: travel,
+    iconBackgroundColor: "#383E56",
+    liveLink: "https://ishan-travel-list.netlify.app/",
+    github: "https://github.com/Ishanlathwal/TravelList-Todo",
+  },
+  {
+    title: "Calculator",
+    icon: calculator,
+    iconBackgroundColor: "#E6DEDD",
+    liveLink: "https://ishan-calculator.netlify.app/",
+    github: "https://github.com/Ishanlathwal/Calculator",
+  },
+  {
+    title: "React Quiz",
+    icon: reactjs,
+    iconBackgroundColor: "#383E56",
+    liveLink: "https://ishan-react-quiz.netlify.app/",
+    github: "https://github.com/Ishanlathwal/react-quiz",
   },
 ];
 
 const certificates = [
   {
+    id: 1,
     certificate: "JavaScript: The Advanced Concepts (2023)",
     name: "Andrei Neagoie",
     company: "Udemy / Zero-To-Mastery",
@@ -143,6 +173,7 @@ const certificates = [
       "https://images.ctfassets.net/aq13lwl6616q/3jyqzyDMgKDqWLua869Q0Z/86124d5fbcfc747a0348e631aba7c0f6/andrei.jpg?w=300&h=299&q=50&fm=webp&bg=transparent",
   },
   {
+    id: 2,
     certificate: "The Ultimate React Course 2024: React, Redux & More",
     name: "Jonas Schmedtmann",
     designation: "COO",
@@ -151,6 +182,7 @@ const certificates = [
       "https://pbs.twimg.com/profile_images/580383480850358272/hGdszCo0_400x400.jpg",
   },
   {
+    id: 3,
     certificate: "Node.js, Express, MongoDB & More: The Complete Bootcamp 2024",
     name: "Jonas Schmedtmann",
     company: "Udemy",
@@ -158,6 +190,7 @@ const certificates = [
       "https://pbs.twimg.com/profile_images/580383480850358272/hGdszCo0_400x400.jpg",
   },
   {
+    id: 4,
     certificate:
       "Html,Css,JavaScript (Web-Designing) + M.E.A.N Stack / M.E.R.N Stack",
     name: "Gaurav",

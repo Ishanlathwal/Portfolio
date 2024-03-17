@@ -23,7 +23,7 @@ const Certificates = () => {
       <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7`}>
         {certificates.map((certificate, index) => (
           <CertificatesCard
-            key={certificate.name}
+            key={certificate.id}
             index={index}
             {...certificate}
           />

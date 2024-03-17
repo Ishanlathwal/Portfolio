@@ -31,7 +31,6 @@ export const CertificatesCard = ({
           className="w-10 h-10 rounded-full object-cover"
         />
       </div>
-      {console.log(certificate)}
     </div>
   </motion.div>
 );
