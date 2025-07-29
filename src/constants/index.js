@@ -39,7 +39,7 @@ export const navLinks = [
     id: "resume",
     title: "Download resume",
     isDownload: true,
-    file: "/Ishan_Resume.pdf",
+    file: "/Novo.pdf",
   },
 ];
 
